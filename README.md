@@ -37,7 +37,8 @@ Dense(10, activation='softmax')
 Loss: Categorical Crossentropy
 Optimizer: Adam
 Metric: Accuracy
-4. Training & Validation
+
+**4. Training & Validation
 
 Train/validation split: 80 % / 20 %
 Data augmentation used (ImageDataGenerator):
@@ -70,7 +71,9 @@ Handwritten_dataset/
 ├── 8/
 └── 9/
 ```
-Each folder contains grayscale images of Persian digits belonging to that label.
+Each folder contains grayscale images of Persian digits belonging to that label. 
+
+---
 
 📊 Results
 The CNN successfully recognizes Persian handwritten digits similarly to MNIST-level models.
@@ -80,6 +83,7 @@ Validation accuracy: ~0.75 – 0.90
 It can also detect multi-digit Persian numbers from segmentations generated via OpenCV.
 
 Performance visualization (accuracy & loss curves) can be found inside the repository under /plots.
+---
 
 🔮 Future Improvements
 Add more samples and handwriting variations.
@@ -87,3 +91,4 @@ Improve image preprocessing (denoising and thresholding).
 Convert the trained model to TensorFlow Lite for mobile deployment.
 
 ---
+
