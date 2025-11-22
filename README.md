@@ -56,7 +56,7 @@ Image Processing: OpenCV
 Visualization: Matplotlib
 Dataset Tools: tf.data, ImageDataGenerator
 📂 Dataset Structure
-
+```bash
 Handwritten_dataset/
 │
 ├── 0/
@@ -69,6 +69,7 @@ Handwritten_dataset/
 ├── 7/
 ├── 8/
 └── 9/
+```
 Each folder contains grayscale images of Persian digits belonging to that label.
 
 📊 Results
@@ -85,3 +86,4 @@ Add more samples and handwriting variations.
 Improve image preprocessing (denoising and thresholding).
 Convert the trained model to TensorFlow Lite for mobile deployment.
 
+---
